@@ -7,10 +7,9 @@ let input = prompt("Inserisci la tua email");
 let login = "Ti piacerebbe!!!";
 
 for (let i = 0; i < mailingList.length; i++) {
-    
+
     if (mailingList[i] == input) {
         login = "La tua email risulta essere nel nostro database. Benvenuto!";
-        break;
     }
 
 }
