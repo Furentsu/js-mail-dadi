@@ -8,11 +8,11 @@ let login = "Ti piacerebbe!!!";
 
 for (let i = 0; i < mailingList.length; i++) {
     
-    if (mailingList[i] = input) {
+    if (mailingList[i] == input) {
         login = "La tua email risulta essere nel nostro database. Benvenuto!";
+        break;
     }
 
-    break;
 }
 
 document.getElementById("login").innerHTML = login;
